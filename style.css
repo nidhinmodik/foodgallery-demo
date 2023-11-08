@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+nav{
+    background-color: rgb(255,165,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255,165,0);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.icon1{
+    align-items: start;
+}
+header h2{
+    color: white;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(255,165,0);
+    color: white;
+}
+footer{
+    background-color: rgb(255,165,0);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#footer1 a{
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.row{
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255,165,0);
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.col{
+    width: 150px;
+    height: 250px;
+    border: 5px ridge rgb(255,165,0);
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.col1{
+    width: 150px;
+    height: 250px;
+    border: 5px ridge rgb(255,165,0);
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.col2{
+    width: 150px;
+    height: 250px;
+    border: 5px ridge rgb(255,165,0);
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.col:hover{
+    width: 200px;
+    height: 250px;
+}
+.col1:hover{
+    width: 200px;
+    height: 250px;
+}
+.col2:hover{
+    width: 200px;
+    height: 250px;
+}
+button{
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+button:hover{
+    width: 100px;
+    height: 35px;
+}
